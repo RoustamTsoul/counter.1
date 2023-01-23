@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+
+body{
+    font-family: 'Rubik Gemstones', cursive;
+    color: goldenrod;
+    background:linear-gradient(90deg, rgba(255, 255, 0, 1) 6%, rgba(255, 235, 59, 1) 30%, rgba(233, 30, 99, 1) 53%, rgba(238, 130, 238, 1) 100%);
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    border: 5px solid black;
+    width: 650px;
+    height: 450px;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(232, 51, 147, 0.774);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(188, 43, 188);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.btn{
+    font-size: 1rem;
+    font-family: 'Rubik Gemstones', cursive;
+    width: 115px;
+    height: 65px;
+    border-radius: 100px;
+}
+
+.btn-succes{
+    background: radial-gradient(circle, rgba(238,174,202,1) 15%, rgba(148,187,233,1) 94%);
+}
+
+.btn-succes:hover{
+    background: radial-gradient(circle, rgb(175, 37, 97) 15%, rgb(69, 133, 206) 94%);
+}
+
+.btn-danger{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 6%, rgba(246,0,0,1) 47%, rgba(252,176,69,1) 89%);
+}
+
+.btn-danger:hover{
+    background: linear-gradient(90deg, rgb(66, 6, 106) 6%, rgb(110, 8, 8) 47%, rgb(200, 124, 17) 89%);
+}
